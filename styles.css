@@ -11,11 +11,15 @@
     background-color: #fff;
     transition: background-color .5s;
 }
-.main .line div.s {
+.main .line div.snake {
     background-color: #bbb;
     transition: background-color .5s;
 }
-.main .line div.f {
+.main .line div.food {
     background-color: green;
     transition: background-color 2s;
+}
+
+.main .line div.wall {
+    background-color: red;
 }
